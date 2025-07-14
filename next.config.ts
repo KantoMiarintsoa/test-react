@@ -4,7 +4,10 @@ import createNextIntlPlugin from 'next-intl/plugin';
 const nextConfig: NextConfig = {
   /* config options here */
     images:{
-      remotePatterns: [new URL('https://randomuser.me/api/portraits/**')]
+      remotePatterns: [{
+        protocol:'https',
+        hostname:"randomuser.me"
+      }]
     }
 };
 
