@@ -6,7 +6,10 @@ const nextConfig: NextConfig = {
     images:{
       remotePatterns: [{
         protocol:'https',
-        hostname:"randomuser.me"
+        hostname:"randomuser.me",
+        pathname: '/api/portraits/**',
+
+
       }]
     }
 };
