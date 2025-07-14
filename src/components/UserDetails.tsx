@@ -29,6 +29,7 @@ function UserDetails({user, info}:{user:User, info:UserInfo}) {
                     width={50}
                     height={50}
                     className="rounded-full mr-3"
+                    unoptimized
                   />
                   <div className="text-sm text-gray-600">
                     <div className="flex items-center space-x-1">
