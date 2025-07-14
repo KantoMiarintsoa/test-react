@@ -1,0 +1,15 @@
+{
+  "male": "Male",
+  "female": "Female",
+  "contact": "Contact",
+  "phone": "Phone",
+  "cell": "Cell",
+  "location": "Location",
+  "street": "Street",
+  "seed": "Seed",
+  "page": "Page",
+  "result": "Result",
+  "version": "Version",
+  "info": "Personal information",
+  "generate":"Generate"
+}

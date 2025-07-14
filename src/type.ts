@@ -5,7 +5,7 @@ export type User = {
         first:string,
         last:string
     },
-    localisation:{
+    location:{
         street:{
             number:number,
             name:string
@@ -25,15 +25,18 @@ export type User = {
     picture:{
         large:string
     },
-    info:{
-        seed:string,
-        results:number,
-        page:number,
-        version:string
-    }
+    nat:string
+}
+
+export type Info = {
+    seed:string,
+    results:number,
+    page:number,
+    version:string
 }
 
 
 export type Result = {
-    results:User[]
+    results:User[],
+    info:Info
 }

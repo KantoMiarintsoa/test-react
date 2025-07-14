@@ -1,0 +1,15 @@
+{
+  "male": "Homme",
+  "female": "Femme",
+  "contact": "Contact",
+  "phone": "Téléphone",
+  "cell": "Portable",
+  "location": "Localisation",
+  "street": "Rue",
+  "seed": "Seed", 
+  "page": "Page",
+  "result": "Résultat",
+  "version": "Version",
+  "info": "Informations personnelles",
+  "generate":"Générer"
+}
